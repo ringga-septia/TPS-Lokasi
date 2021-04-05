@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root"
+    android:background="#020A4E"
+    tools:context=".ui_aksi.UploadActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_image_pict"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:layout_marginTop="20dp"
+        android:background="#243E70"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="308dp"
+            android:layout_height="207dp"
+            android:src="@drawable/ic_image"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/name_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Pilih Gambar"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/loding"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="40" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="#243E70"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/ll_image_pict"
+        app:layout_constraintStart_toStartOf="@+id/ll_image_pict"
+        app:layout_constraintTop_toBottomOf="@+id/ll_image_pict"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Kabupaten :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:id="@+id/spiner_kabupaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Kecamatan :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:id="@+id/spiner_kecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.575" />
+        <TextView
+            android:layout_gravity="center"
+            android:text="kelurahan :"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:layout_marginTop="5dp"
+            android:id="@+id/spiner_kelurahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <EditText
+            android:id="@+id/et_keterangan"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="366dp"
+            android:layout_height="115dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="32dp"
+            android:gravity="top"
+            android:hint="Keterangan"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:shadowColor="@color/black"
+        android:background="@color/teal_700"
+        android:id="@+id/btn_upload"
+        android:textSize="20dp"
+        android:text="Kirim Data"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TPS-Lokasi</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start</string>
+    <string name="stop_updates">Stop</string>
+
+    <string name="location_settings_inadequate_warning">The location settings on the device are not
+        adequate to run this sample. Fix in Settings.</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_lo_kasi">Map</string>
+
+    <string name="data_text">Dasar Pembentukan Dinas Lingkungan Hidup dan Kebersihan Kota Pekanbaru membantu Walikota dalam melaksanakan urusan pemerintahan di lingkungan hidup dan kebersihan  serta tugas pembantuan lainnya. Dasar pembentukan Dinas Lingkungan Hidup dan Kebersihan Kota Pekanbaru adalah Peraturan Daerah Kota Pekanbaru Nomor 9 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah Kota Pekanbaru dan Peraturan Walikota Pekanbaru Nomor 103 Tahun 2016 tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi serta tata kerja Dinas Lingkungan Hidup dan Kebersihan Kota Pekanbaru. \n
+Tugas :Dinas Lingkungan Hidup dan Kebersihan Kota Pekanbaru mempunyai tugas membantu Walikota dalam melaksanakan urusan pemerintahan dilingkungan hidup, kebersihan dan sub urusan kehutanan serta tugas pembantuan lainnya. \n
+\n\n
+Fungsi :\n
+        -> Perumusan kebijakan teknis di bidang lingkungan hidup dan kebersihan; \n
+        -> Perumusan rencana kerja, program dan kegiatan lingkungan hidup dan kebersihan; \n
+        -> Perumusan kebijakan teknis di bidang lingkungan hidup dan kebersihan; \n
+        -> Perumusan rencana kerja, program dan kegiatan bidang lingkungan hidup dan kebersihan; \n
+        -> Pelaksanaan kegiatan yang menjadi tugas pokok Dinas Lingkungan Hidup dan Kebersihan;\n
+        -> Perumusan kebijakan, penyusunan dan perencanaan teknis, pemberian bimbingan dan penyuluhan bidang lingkungan hidup dan kebersihan; \n
+        -> Penyelenggaraan pelayanan umum dan pelayanan teknis di bidang lingkungan hidup dan kebersihan; \n
+        -> Pelaksanaan urusan bidang kehutanan sub urusan konservasi sumber daya alam hayati dan ekosistemnya; \n
+        -> Penetapan dan pengesahan naskah dinas sesuai dengan kewenangannya; \n
+        -> Pembinaan Unit Pelaksana Teknis dalam lingkup dinas; \n
+        -> Pembinaan,  Pengawasan dan mengendalikan pelaksanaan kegiatan bidang lingkungan hidup dan kebersihan; \n
+        -> Pembinaan pegawai di lingkungan Dinas Lingkungan Hidup dan Kebersihan; \n
+        -> Pengelolaan keuangan dinas; \n
+        -> Pelaksanaan tugas-tugas lain yang diberikan oleh pimpinan sesuai dengan tugas dan fungsinya. \n
+    </string>
+</resources>
